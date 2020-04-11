@@ -1,16 +1,20 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# cybermite
 
----
+> JAM-stack without A
 
-# svelte app
+- no remote APIs
+- single static file
+- minimal-size
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+Use [picofeed](https://github.com/telamon/picofeed) as database & transport.
+
+This is a project template for generating microscopic viral applications using [Svelte](https://svelte.dev).
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
+npx degit telamon/cybermite-template my-app
+cd my-app
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
@@ -21,7 +25,7 @@ cd svelte-app
 Install the dependencies...
 
 ```bash
-cd svelte-app
+cd my-app
 npm install
 ```
 
@@ -91,3 +95,4 @@ Then, from within your project folder:
 npm run build
 surge public my-project.surge.sh
 ```
+
